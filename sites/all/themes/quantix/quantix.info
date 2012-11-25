@@ -1,0 +1,37 @@
+name = Quantix
+description = Classic table-based, multi-column, recolorable Drupal theme.
+
+core = 7.x
+engine = phptemplate
+
+regions[help]           = Help
+regions[header_right]         = Header Right
+
+regions[header]         = Header 
+
+regions[above_content]        = Above Content
+regions[content]        = Content
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+
+
+regions[footer]         = Footer
+
+
+stylesheets[all][] = style.css
+
+
+
+scripts[] = js/jquery.labelify.js
+scripts[] = js/jquery.corner.js
+scripts[] = js/jcaption.min.js
+scripts[] = js/quantix.js
+
+
+
+; Information added by drupal.org packaging script on 2012-06-02
+version = "7.x-1.1"
+core = "7.x"
+project = "quantix"
+datestamp = "1338642373"
+
